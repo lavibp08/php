@@ -16,5 +16,12 @@
     <button><a href="telas/dividir.php">Dividir</a></button><br>
     <button><a href="telas/bhaskara.php">Calcular Bhaskara</a></button><br>
     <button><a href="telas/dobro.php">Exibir o Dobro</a></button><br>
+    <button><a href="telas/media.php">Exibir a Média</a></button><br>
+    <button><a href="telas/raiz.php">Exibir a raiz</a></button><br>
+    <button><a href="telas/conversao.php">Converter</a></button><br>
+    <button><a href="telas/raiz.php">Raiz</a></button><br>
+    <button><a href="telas/temperatura.php">Temperatura</a></button><br>
+    <button><a href="telas/desconto.php">Desconto de 10%</a></button><br>
+    <button><a href="telas/idade.php">Verificar a idade</a><button><br>
 </body>
 </html>

@@ -75,5 +75,45 @@
             return $this->resultado;
 
         }
+
+        public function raiz(float $a){
+        if($a < 0) {
+            return "Não existe raiz quadrada real para números negativos.";
+        }
+
+        $this->resultado = sqrt($a);
+        return $this->resultado;
+        }
+
+        public function conversao($num1){
+            $this->resultado = $num1 * 100;
+            return $this->resultado;
+        }
+
+        public function raio(float $a, $r){
+            $a = 3.14 * pow($r,2);
+            $this->resultado = $a;
+            return $this->resultado;
+        }
+
+        public function temperatura(float $c){
+            $soma = $c * 1.8;
+            $this->resultado = $soma + 32;
+            return $this->resultado;
+        }
+
+        public function desconto(float $p){
+            $sub = $p / 10;
+            $this->resultado = $p - 10;
+            return $this->resultado;
+        }
+
+        public function idade(float $i){
+            $this->resultado = $i * 12;
+            return $this->resultado;
+        }
+
+        public function numeros(float $im, $par)
+
     }//fim da classe
 ?>

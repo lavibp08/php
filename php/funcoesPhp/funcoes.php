@@ -113,7 +113,19 @@
             return $this->resultado;
         }
 
-        public function numeros(float $im, $par)
+        public function numeros(float $num){
+            if($num % 2 == 0){
+                return "Par!";
+            }else{
+                return "Impar";
+            }
+        }
+
+        public function triangulo(float $b, $h, $a){
+            $a = $b * $h;
+            $this->resultado = $a / 2;
+            return $this->resultado;
+        }
 
     }//fim da classe
 ?>

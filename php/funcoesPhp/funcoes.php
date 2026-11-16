@@ -121,10 +121,32 @@
             }
         }
 
-        public function triangulo(float $b, $h, $a){
-            $a = $b * $h;
-            $this->resultado = $a / 2;
-            return $this->resultado;
+        public function crescente($num){
+             // Verifica se o número é realmente positivo
+                if ($num >= 1) {
+                echo "Contando de 1 até $num:\n";
+                
+                // Laço de repetição de 1 até o número informado
+                for ($i = 1; $i <= $num; $i++) {
+                    echo $i . "\n";
+                }
+                } else {
+                echo "";
+                }
+            }
+        
+        public function regressivo($num){
+            if ($num >= 0){
+            echo "Contando de $num até 0:\n";
+
+            for ($i = 0; $i <= $num; $i++){
+                echo $i . "\n";
+            }
+            } else {
+                echo "";
+            }
+            
+            
         }
 
     }//fim da classe

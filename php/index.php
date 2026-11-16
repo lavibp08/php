@@ -24,6 +24,8 @@
     <button><a href="telas/desconto.php">Desconto de 10%</a></button><br>
     <button><a href="telas/idade.php">Verificar a idade</a></button><br>
     <button><a href="telas/algarismo.php">Impar ou Par</a></button><br>
-    <button><a href="telas/triangulo.php">Area do triangulo</a></button><br>
+    <button><a href="telas/crescente.php">Ordem crescente</a></button><br>
+    <button><a href="telas/regressiva.php">Ordem regressiva</a></button><br>
+    
 </body>
 </html>

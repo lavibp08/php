@@ -26,6 +26,9 @@
     <button><a href="telas/algarismo.php">Impar ou Par</a></button><br>
     <button><a href="telas/crescente.php">Ordem crescente</a></button><br>
     <button><a href="telas/regressiva.php">Ordem regressiva</a></button><br>
+    <button><a href="telas/soma.php">Soma de números</a></button><br>
+    <button><a href="telas/sete.php">Multiplos</a></button><br>
+    <button><a href="telas/vinte.php">Pares</a></button><br>
     
 </body>
 </html>

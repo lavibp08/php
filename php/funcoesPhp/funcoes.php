@@ -149,5 +149,35 @@
             
         }
 
+        public function soma($num){
+            $soma = 0;
+            for ($i = 1; $i <= $num; $i++){
+                $soma = $soma + $i;
+        }
+           $this->resultado = $soma;
+            return $this->resultado;
+        }
+
+        public function sete($num){
+            $resultado = "";
+            for ($i = 1; $i <= 100; $i++){
+                if ($i % $num == 0){
+                    $resultado .= $i ."<br>";
+                }
+            }
+            return $resultado;
+
+        }
+
+        public function vinte($num){
+            $resultado = "";
+            for ($i = 1; $i <= 20; $i++){
+                if($i % 2 == 0){
+                    $resultado .= $i ."<br>";
+                }
+            }
+            return $resultado;
+        }
+
     }//fim da classe
 ?>

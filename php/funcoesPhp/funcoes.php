@@ -179,5 +179,24 @@
             return $resultado;
         }
 
+        public function tabuada($num){
+            $resultado = "";
+            echo "Tabuada do {$num}:\n";
+            for ($i = 1; $i <= 10; $i++){
+                $resultado = $num * $i;
+                echo "{$num} x {$i} = " . ($num * $i) . "\n";
+                $resultado .= $i ."<br>";
+            }         
+            return $resultado;
+        }
+
+        public function nota($num1, $num2, $num3, $num4, $num5, $num6, $num7, $num8){
+            $resultado = "";
+            for ($i = 1; $i <= 8; $i++){
+                $soma = $num1 + $num2 + $num3 + $num4 + $num5 + $num6 + $num7 + $num8;
+                $resultado = $soma / 8 == 7;
+            }
+        }
+
     }//fim da classe
 ?>
